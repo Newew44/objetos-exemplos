@@ -1,0 +1,122 @@
+// const professor = {
+//     nome: "vitor",
+//     idade: 27,
+//     email: "vitor@gmail.com"
+// }
+
+// console.log(professor.idade)
+// console.log(professor["email"])
+
+// professor.nome = "Mika"
+// professor["email"] = "profmika@gmail.com"
+
+
+//Exercicio
+
+//  const filme = {
+//      nome: "Dragon Ball Super: Broly",
+//      diretor: "Tatsuya Nagamine",
+//      ano: 2018,
+//      elenco: ["Masako Nozawa", "Ryo Horikawa", "Bin Shimada"],
+//      assistiu: Boolean(true),
+     
+//  }
+
+// filme.personagens = ["Goku", "Vegeta", "Broly"];
+
+
+// console.log(filme.elenco[0] + " atua como " + filme.personagens[0])
+// console.log(filme.elenco[1] + " atua como " + filme.personagens[1])
+// console.log(filme.elenco[2] + " atua como " + filme.personagens[2])
+
+// filme.elenco[0] = "Xuxa"
+
+
+//  console.log(filme);
+ 
+
+
+// 2.
+
+// const pessoa = {
+//      nome: "Rato Mnhofa",
+//      idade: 248,
+//      gostomusical: "Punk",
+//  }
+
+
+
+// function pessoaA(objetoA) {
+//     objetoNovo = {...objetoA, lista: ["Lasanha", "Batata-frita", "Pizza"], objeto: {nome: "Gato", idade: 246}}
+//     console.log("O nome da pessoa é", objetoNovo.nome, "e suas comidas preferidas são", objetoNovo.lista[0] + ",", objetoNovo.lista[1], "e", objetoNovo.lista[2] + ". Seu melhor amigo se chama", objetoNovo.objeto.nome, "e tem", objetoNovo.idade, "anos.")
+// }
+
+// pessoaA(pessoa)
+
+
+// console.log("O nome da pessoa é", pessoa.nome + ", ela tem", pessoa.idade, "anos e gosta muito de", pessoa.gostomusical);
+
+
+//Exemplos
+
+ 
+// const donoDoPet = {
+//     nome: "Vitor Hugo",
+//     pet: {
+//         nomeDoPet: "Wanda",
+//         raca: "Vira-lata",
+//         idade: 1,
+//     }
+// }
+
+// console.log(donoDoPet.pet.nomeDoPet)
+
+
+
+// const curso = {
+//      nome: "Noturno Frontend",
+//      linguagens: ["JS", "CSS", "HTML"]
+//  }
+
+// console.log(curso.linguagens[0])
+
+// curso.numeroEstudantes = 50
+// curso["numeroEstudantes"] = 50
+
+
+
+
+
+
+// const professores = [
+//     {nome: "Andrei", modulo: 1},
+//     {nome: "Vitor", modulo: 2},
+//     {nome: "Mina", modulo: 3}
+// ]
+
+// console.log(professores[1].nome)
+
+
+// const usuario = {
+//     nome: "Prof",
+//     idade: 25,
+//     email: "prof@senacrs.com.br",
+//     cidade: "São Paulo",
+
+// }
+
+// const novoUsuario = {
+//     ...usuario,
+//     nome: "João",
+//     idade: 28
+// }
+
+// console.log(usuario)
+// console.log(novoUsuario)
+
+// const listaDeNomes = ["Mika", "Paula", "Vitor"]
+
+// const copiaListaDeNomes = [...listaDeNomes]
+// copiaListaDeNomes[0] = "Vitor"
+
+// console.log(copiaListaDeNomes)
